@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 $primary-color: #444;
-$secondary-color: #eece1a;
+$secondary-color: #999;
 $show-home-image: true;
-$home-image: url(../img/background.jpg);
-$background-opacity: 0.9s;
+$home-image: url(../img/dark-wood.jpg);
+$background-opacity: 0.4;
 
 @mixin easeOut {
   transition: all 0.5s ease-out;
@@ -16,7 +17,7 @@ $background-opacity: 0.9s;
       background-size: cover;
 
       &::after {
-        content: "";
+        content: '';
         position: absolute;
         top: 0;
         right: 0;
